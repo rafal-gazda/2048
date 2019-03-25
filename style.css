@@ -1,0 +1,139 @@
+*
+{
+    color: black;
+    font-size: 0px;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1818;
+}
+
+.cont
+{
+    font-size: 20px;
+    color: black;
+}
+
+.description
+{
+    position: relative;
+    width: 450px;
+    min-height: 50px;
+    margin: 0px auto;
+    color: black;
+    font-size: 22px;  
+    padding-top: 5px;
+    text-align: center;    
+}
+
+.description__headline
+{
+    font-size: 80px;
+    text-align: left;
+    color: #8d8580;
+}
+
+.description__score
+{
+    position: absolute;
+    width: 100px;
+    height: 65px;
+    top: 15px;
+    right: 0px;
+    border-radius: 5px;
+    text-align: center;
+    z-index: 1;
+}
+
+.score__paragraph
+{
+    color: white;
+    font-size: 20px;  
+    padding-top: 5px;
+}
+
+.description__paragraph
+{
+    color: white;
+    font-size: 24px;  
+    text-align: center;
+}
+
+.container
+{
+    background-color: gray;
+    width: 450px;
+    height: 450px;
+    margin: 8px auto;
+    position: relative;
+    border-radius: 10px;
+}
+
+.container__square
+{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.container__number
+{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: #eee2da;
+    display: inline;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 20px;
+    opacity: 0;
+    box-sizing: border-box;
+    transition: all 0.3s;
+    z-index: 2;
+    border-radius: 5px;
+}
+
+.container__again
+{
+    position: absolute;
+    z-index: 3;
+    background-color: lightgray;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    top: 0%;
+    left: 0%;
+    text-transform: translate(-50%,-50%);
+    opacity: 0;
+    display: none;
+    transition: opacity 1s;
+}
+
+.again__headline
+{
+    text-align: center;
+    color: #776e65;
+    font-size: 50px;
+    padding-top: 160px;
+}
+
+.again__button
+{
+    background-color: #8f7a66;
+    color: white;
+    font-size: 20px;
+    width: 180px;
+    padding: 20px 0px;
+    text-align: center;
+    margin: 20px auto;
+    border-radius: 5px;
+    cursor: pointer;    
+}
+
+
+
+
+
